@@ -53,6 +53,8 @@ function checkAnswer() {
     } else {
         alert(`Wrong... you answered ${userAnswer}. The correct answer was ${calculatedAnswer[0]}!`);
     }
+
+    runGame(calculatedAnswer[1]);
 }
 
 /**
