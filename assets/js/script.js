@@ -144,3 +144,5 @@ function displayMultiplyQuestion(operand1, operand2) {
 
 
 }
+
+parseInt(operand1)
